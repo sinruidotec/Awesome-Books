@@ -27,3 +27,7 @@ form {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.deleteBtn {
+  margin-bottom: 2rem;
+}
