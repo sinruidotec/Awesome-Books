@@ -14,10 +14,19 @@ class Books {
       <div id="book-${index}">
         <h2 >${title}</h2>
         <h3>${author}</h3>
-        <button class="deleteBtn" data-index"${index}">Delete</button>
+        <button class="deleteBtn" data-index ="${index}">Delete</button>
       </div>
       `;
     });
+  }
+
+  static removeBooks(index) {
+    const bookToRemove = document.getElementById(`book-${index}`);
+    if (bookToRemove) {
+      bookToRemove.remove();
+      data.splice(index, 1);
+      localStorage.setItem('booksData', JSON.stringify(data));
+    }
   }
 }
 
@@ -30,9 +39,16 @@ document.getElementById('myForm').addEventListener('submit', (e) => {
   data.push(copyBook);
   localStorage.setItem('booksData', JSON.stringify(data));
   const deployHtml = Books.addBooks(data);
-  dynamicBooks.innerHTML = deployHtml.join("");
+  dynamicBooks.innerHTML = deployHtml.join('');
   e.preventDefault();
 });
 
 const deployHtml = Books.addBooks(data);
-dynamicBooks.innerHTML = deployHtml.join("");
+dynamicBooks.innerHTML = deployHtml.join('');
+
+dynamicBooks.addEventListener('click', (e) => {
+  if (e.target.classList.contains('deleteBtn')) {
+    const index = parseInt(e.target.getAttribute('data-index'), 10);
+    Books.removeBooks(index);
+  }
+});
