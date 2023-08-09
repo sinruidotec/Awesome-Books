@@ -13,21 +13,64 @@ body {
   justify-content: center;
 }
 
+#dynamicBooks {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+.booksInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  border: 2px solid; 
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
 h1 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-left: 10px;
 }
 
 .formBox {
-  width: 500px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70%;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  width: 60%;
   gap: 0.5rem;
 }
 
 .deleteBtn {
-  margin-bottom: 2rem;
+  margin: 5px 10px 5px 0;
+  padding: 5px 10px;
+}
+
+hr {
+  /* height: 3px; */
+  border: 1px solid;
+  width: 80%;
+}
+
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 16px;
 }
