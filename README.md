@@ -118,6 +118,7 @@ Visit the deployed website at https://sinruidotec.github.io/Awesome-Books.github
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Jonathan Arias Gallego**
+👤 **Ruri Enciso**
 
 - GitHub: [sinruidotec](https://github.com/sinruidotec)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jonathan-arias-gallego-385b3926a/)
