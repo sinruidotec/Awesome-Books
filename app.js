@@ -1,4 +1,3 @@
-const dynamicBooks = document.getElementById('dynamicBooks');
 const data = JSON.parse(localStorage.getItem('booksData')) || [];
 
 class Books {
@@ -8,13 +7,17 @@ class Books {
   }
 
   static addBooks(booksData) {
-    return booksData.map((books, index) => {
-      const { title, author } = books;
+    return booksData.map((book, index) => {
+      const { title, author } = book;
       return `
-      <div id="book-${index}">
-        <h2 >${title}</h2>
-        <h3>${author}</h3>
-        <button class="deleteBtn" data-index ="${index}">Delete</button>
+      <div>
+        <div id="book-${index}" class="booksInfo">
+          <div class="infoContainer">
+            <h2>"${title}" by</h2>
+            <h3>${author}</h3>
+          </div>
+          <button class="deleteBtn" data-index="${index}">REMOVE</button>
+        </div>
       </div>
       `;
     });
@@ -30,25 +33,26 @@ class Books {
   }
 }
 
-// DOM manipulation
+const dynamicBooks = document.getElementById('dynamicBooks');
+dynamicBooks.innerHTML = Books.addBooks(data).join('');
 
 document.getElementById('myForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+
   const title = document.getElementById('title').value;
   const author = document.getElementById('author').value;
-  const copyBook = new Books(title, author);
-  data.push(copyBook);
-  localStorage.setItem('booksData', JSON.stringify(data));
-  const deployHtml = Books.addBooks(data);
-  dynamicBooks.innerHTML = deployHtml.join('');
-  e.preventDefault();
-});
 
-const deployHtml = Books.addBooks(data);
-dynamicBooks.innerHTML = deployHtml.join('');
+  data.push(new Books(title, author));
+  localStorage.setItem('booksData', JSON.stringify(data));
+
+  dynamicBooks.innerHTML = Books.addBooks(data).join('');
+});
 
 dynamicBooks.addEventListener('click', (e) => {
   if (e.target.classList.contains('deleteBtn')) {
     const index = parseInt(e.target.getAttribute('data-index'), 10);
     Books.removeBooks(index);
+
+    dynamicBooks.innerHTML = Books.addBooks(data).join('');
   }
 });
