@@ -1,23 +1,50 @@
 <a name="readme-top"></a>
 
-# 📖 [Books_App] <a name="Awesome books"></a>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-**[RWD Project]** This Is a web development project for Microverse in block 1 of  module 2.
+Modify this file to match your project and remove sections that don't apply.
 
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-# 📗 Table of Contents.
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. 
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <br/>
+
+  <h3><b>Awesome Books project</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [Tech Stack](#tech-stack)
-  - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -25,142 +52,128 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖<a name="about-project">It is a web application with which you can create a list of books with their respective authors, you can also delete these books with a simple click.</a>
+# 📖 [Awesome Books project ] <a name="about-project"></a>
 
+<!-- > Describe your project in 1 or 2 sentences.-->
 
-**[Capstone]** It is a showcase to show my current and future projects.
+**Awesome Books project** 
+Awesome-Books is a basic website that allows users to add/remove books from a list.
+It is a basic website made with HTML, CSS, and JavaScript. 
 
-## 🛠 Built With <a name="built-with-">'Jonathan-Arias'</a>
+## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack">HTML, CSS, JS</a>
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-  </ul>
-<ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-<ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JS</a></li>
+    <li><a href="https://reactjs.org/">None</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">None</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">None</a></li>
+  </ul>
+</details> 
+
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
+<!-- > Describe between 1-3 key features of the application. -->
 
-
-- **[[Descriptive_README_File]**
-- **[Linterns_Best_Practices]**
-- **[DOM_Manipulation]**
-- **[Deployed_with_GitHub_Pages]**
+- **[SPA]**
+- **[luxo library]**
+- **[Accesible Website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To get a local copy up and running, follow these steps.
+<!-- > Add a link to your deployed project. -->
 
-1. Download the repo or clone it
+- [ Website Live Demo Link](https://rurienciso.github.io/Awesome-Books/)
 
-2. Use Live server extention 
-ID: ritwickdey.LiveServer
-Or run it via GitHub Pages
-### Prerequisites
-
-In order to run this project you need:
-
-Visual Studio or any other editor such as Sublime Text
-A localhost or a github pages set up
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
-
-
-### Install
-
-To retrieve node dependencies run npm install
-
-### Usage
-
-To run the project, execute the following command:
-
-Open a live server or a localhost to test it local
-Or
-Uploaded to Github and use Github Pages
-
-
-### Run tests
-
-To run tests, run the following command:
-
-No tests needed at the moment
-
-### Deployment
-
-Visit the deployed website at https://sinruidotec.github.io/Awesome-Books.github.io/
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+git clone git@github.com:RuriEnciso/Awesome-Books.git
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jonathan Arias Gallego**
+<!-- > Mention all of the collaborators of this project.-->
+
 👤 **Ruri Enciso**
 
-- GitHub: [sinruidotec](https://github.com/sinruidotec)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jonathan-arias-gallego-385b3926a/)
+- GitHub: [@githubRuriEnciso](https://github.com/RuriEnciso)
+- Twitter: [@twitterRuriEnciso](https://twitter.com/rurienciso)
+- LinkedIn: [LinkedInRuriEnciso](https://www.linkedin.com/in/ruri-enciso/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **[Medium_Fidelity_Wireframes]**
-- [ ] **[Local_Storage]**
-- [ ] **[Additional_projects]**
-- [ ] **[Add_Styles_To_The_Project]**
+- [ ] **[social media integrations]**
+- [ ] **[user experience]**
+- [ ] **[performance]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/RuriEnciso/Awesome-Books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project we encourage you to support Microverse to keep helping the future of web development and creating such a good habits on the future developers around the world.
+If you like this project can improve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Microverse Team for your help and support.
+Very grateful to my code reviewers and coding partners at microverse program.
+<!-- * <a href="https://www.behance.net/adagio07" target="_blank" rel="noopener">Cindy Shin in Behance</a> for this web layout. -->
 
+👤 **Syeda Masuma Fatima**
+- GitHub: [@MasumaJaffery](https://github.com/MasumaJaffery)
+- Twitter: [@MasumaJaffery](https://twitter.com/MasumaJaffery)
+- LinkedIn: [Masuma Jaffery](https://www.linkedin.com/in/masuma-jaffery-797a29256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
