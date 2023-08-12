@@ -83,7 +83,6 @@ button {
 
 button:hover {
   background-color: #aaa8a8;
-  /* color: #fff; */
 }
 
 nav {
@@ -117,7 +116,6 @@ nav ul {
 nav ul a {
   color: #000;
   text-decoration: none;
-  /* font-weight: 500; */
   width: max-content;
   margin-left: 1rem;
   display: block;
