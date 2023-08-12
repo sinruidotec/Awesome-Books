@@ -19,7 +19,8 @@ const showContact = () => {
   AddBook.style.display = 'none';
   Contact.style.display = 'flex';
   Contact.innerHTML = `
-      <p>Do have any questions or you just want to say "Hello"?
+    <h2 class="contact-tittle"> Contact Information</h2>
+    <p>Do have any questions or you just want to say "Hello"?
       You can reach out to us!</p>
     <ul>
       <li>Our e-mail: mail@mail.com</li>
